@@ -1,12 +1,22 @@
 # Replace the email string with the email you used to register for Techlabs!
 # This is required to generated your submission key.
-EMAIL = "example@gmail.com"
+EMAIL = "dorukduran07@hotmail.com"
 
 def fizzbuzz(n):
     """Implement the Fizzbuzz function. 
         :param number n: The number to print until (including this number)
     """
-    return
+    i=1
+    for i in range (n):
+        if i%3  ==0 and i%5 ==0:
+            print ("FizzBuzz")
+        elif  i%3 == 0:
+            print ("Fizz")
+        elif  i%5 == 0:
+            print ("Buzz")
+        else :
+            print(i)
+            
 
 
 if __name__ == "__main__":
